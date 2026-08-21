@@ -117,9 +117,10 @@ G 0 <br>
 <h2>Sample Output</h2>
 <hr>
 Path found: ['A', 'E', 'D', 'G']
-```
-PROGRAM:
+<h2>Program:</h2>
 
+
+```
 # A* Algorithm
 from collections import defaultdict
 import networkx as nx
