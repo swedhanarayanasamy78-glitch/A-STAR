@@ -117,6 +117,7 @@ G 0 <br>
 <h2>Sample Output</h2>
 <hr>
 Path found: ['A', 'E', 'D', 'G']
+```
 PROGRAM:
 
 # A* Algorithm
@@ -213,6 +214,7 @@ else:
         plt.title("Shortest Path Highlighted (Red)")
         plt.axis("off")
         plt.show()
+```
 
 OUTPUT:
 <img width="838" height="648" alt="image" src="https://github.com/user-attachments/assets/3432b6ca-aeb5-46e0-8532-d86b66edfa49" />
