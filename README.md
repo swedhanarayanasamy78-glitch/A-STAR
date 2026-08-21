@@ -217,8 +217,8 @@ else:
         plt.show()
 ```
 
-OUTPUT:
+<h3>OUTPUT</h3>
 <img width="838" height="648" alt="image" src="https://github.com/user-attachments/assets/3432b6ca-aeb5-46e0-8532-d86b66edfa49" />
-RESULT:
+<h4>RESULT</h4>:
 Implement A* search algorithm for a Graph executed successfully.
 
