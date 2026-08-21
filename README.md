@@ -202,22 +202,18 @@ else:
         path_edges = []
         for i in range(len(shortest_path)-1):
             path_edges.append((shortest_path[i], shortest_path[i+1]))
-        plt.figure(figsize=(8,6))
-
+        plt.figure(figsize=(8,6)
         nx.draw_networkx_nodes(G, pos, node_color="skyblue",  node_size=1800)
         nx.draw_networkx_labels(G, pos, font_size=12,   font_weight="bold")
-
         # Draw all edges
         nx.draw_networkx_edges(G , pos, edge_color="gray", width=2)
-
-
-
         # Highlight shortest path
         nx.draw_networkx_edges(G, pos,  edgelist=path_edges, edge_color="red", width=4)
         nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels)
         plt.title("Shortest Path Highlighted (Red)")
         plt.axis("off")
         plt.show()
+
 OUTPUT:
 <img width="838" height="648" alt="image" src="https://github.com/user-attachments/assets/3432b6ca-aeb5-46e0-8532-d86b66edfa49" />
 RESULT:
